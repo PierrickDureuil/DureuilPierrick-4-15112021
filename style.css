@@ -510,10 +510,20 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    display: flex;
+
+    border-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    
+    border-radius: 2px;
     box-shadow: none;
 }
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -664,6 +674,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    text-align: center;
 }
 
 .hero-bloc-text-sub {
@@ -686,6 +697,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
+    text-align: center;
     margin: auto auto auto auto;
 }
 
