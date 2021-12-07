@@ -92,8 +92,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
-    background-size: 280px 280px;
+    background: url("img/texture-paper-resize.webp");
 }
 
 .b-parallax {
@@ -405,6 +404,7 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+
 }
 
 .nav > li > .dropdown a {
@@ -1052,5 +1052,13 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .bg-banniere {
+        background-image: url(img/la-chouette-agence-banniere-mobile.webp);
+    }
+
+    .bg-presentation {
+        background-image: url(img/image-de-presentation-mobile.webp);
     }
 }

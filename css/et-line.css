@@ -118,6 +118,18 @@
     display: inline-block
 }
 
+.et-icon-browser:before {
+    content: "\e00c"
+}
+
+.et-icon-presentation:before {
+    content: "\e00e"
+}
+
+.et-icon-edit:before {
+    content: "\e01c"
+}
+/* 
 .et-icon-mobile:before {
     content: "\e000"
 }
@@ -166,16 +178,10 @@
     content: "\e00b"
 }
 
-.et-icon-browser:before {
-    content: "\e00c"
-}
+
 
 .et-icon-calendar:before {
     content: "\e00d"
-}
-
-.et-icon-presentation:before {
-    content: "\e00e"
 }
 
 .et-icon-picture:before {
@@ -230,9 +236,7 @@
     content: "\e01b"
 }
 
-.et-icon-edit:before {
-    content: "\e01c"
-}
+
 
 .et-icon-adjustments:before {
     content: "\e01d"
@@ -516,4 +520,4 @@
 
 .et-icon-dribbble:before {
     content: "\e063"
-}
+} */
